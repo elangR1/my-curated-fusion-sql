@@ -1,3 +1,4 @@
+-- Various filter for Item List
 SELECT
 ics.ITEM_CLASS_NAME
 , esi.ITEM_NUMBER AS "Item Code"
@@ -47,3 +48,4 @@ WHERE
  -- AND esi.inventory_item_id = '100000003112817'
 ORDER BY
 esi.ITEM_NUMBER ASC
+
